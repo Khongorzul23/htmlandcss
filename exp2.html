@@ -1,0 +1,89 @@
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<style>
+body {
+background: linear-gradient(180deg, #252525, #6930c3, #64dfdf, #80ffdb, #ffffff);
+}
+h1 {
+color: white;
+font-family: lobster;
+}
+#star1 {
+background-color: #ffffff;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+top: 50px;
+margin: auto;
+animation-name: bluray;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-fill-mode: forwards;
+}
+@keyframes bluray {
+0% {
+transform: scale(1);
+opacity: 1;
+}
+100% {
+transform: scale(0.5);
+opacity: 0.3;
+}
+}
+#star2 {
+background-color: #ffffff;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+position:relative;
+top: 30px;
+left: 800px;
+animation-name: bob;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-fill-mode: forwards;
+}
+@keyframes bob {
+0% {
+transform: scale(1);
+opacity: 1;
+}
+100% {
+transform: scale(0.5);
+opacity: 0.3;
+}
+}
+#star3 {
+background-color: #ffffff;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+position:relative;
+top: 70px;
+left:500px;
+animation-name: water;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+animation-fill-mode: forwards;
+}
+@keyframes water {
+0% {
+transform: scale(1);
+opacity: 1;
+}
+100% {
+transform: scale(0.5);
+opacity: 0.3;
+}
+}
+</style>
+<head>
+    <title>my boo</title>
+    <link rel="icon" href="./7c90f9b69517bacb2207777f84a9985d.jpg">
+</head>
+<h1>Tiny Space</h1>
+<div id="star1"></div>
+<div id="star2"></div>
+<div id="star3"></div>
